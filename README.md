@@ -2,7 +2,7 @@
 
 WebDriverAgent is a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS that can be used to remote control iOS devices. It allows you to launch & kill applications, tap & scroll views or confirm view presence on a screen. This makes it a perfect tool for application end-to-end testing or general purpose device automation. It works by linking `XCTest.framework` and calling Apple's API to execute commands directly on a device. WebDriverAgent is developed and used at Facebook for end-to-end testing and is successfully adopted by [Appium](http://appium.io).
 
-WebDriverAgent是一个在iOS设备或者虚拟机上实现了一个基于WebDriver协议的服务，这个服务可以远程控制iOS设备。你也可以启动且者杀死某些应用，点击且滚动视图或者确认某块视图是否出现在了屏幕中。这使它在应用端到端的测试和通用设备自动化中成为了一款完美的工具。它通过链接'XCTest.framework'和调用Apple's API来直接在设备上执行命令。WebDriverAgent在Facebook的端到端测试中被开发和使用，并被Appium成功采用。
+WebDriverAgent是一个在iOS设备或者虚拟机上实现了一个基于[WebDriver协议的服务](https://w3c.github.io/webdriver/webdriver-spec.html)，这个服务可以远程控制iOS设备。你也可以启动且者杀死某些应用，点击且滚动视图或者确认某块视图是否出现在了屏幕中。这使它在应用端到端的测试和通用设备自动化中成为了一款完美的工具。它通过链接'XCTest.framework'和调用Apple's API来直接在设备上执行命令。WebDriverAgent在Facebook的端到端测试中被开发和使用，并被[Appium](http://appium.io)成功采用。
 
 ## Archiving
 
@@ -30,7 +30,7 @@ WebDriverAgent is a [WebDriver server](https://w3c.github.io/webdriver/webdriver
 
 ## 概述
 
-WebDriverAgent是一个在iOS设备或者虚拟机上实现了一个基于WebDriver协议的服务，这个服务可以远程控制iOS设备。你也可以启动且者杀死某些应用，点击且滚动视图或者确认某块视图是否出现在了屏幕中。这使它在应用端到端的测试和通用设备自动化中成为了一款完美的工具。它通过链接'XCTest.framework'和调用Apple's API来直接在设备上执行命令。WebDriverAgent在Facebook的端到端测试中被开发和使用，并被Appium成功采用。
+WebDriverAgent是一个在iOS设备或者虚拟机上实现了一个基于[WebDriver协议的服务](https://w3c.github.io/webdriver/webdriver-spec.html)，这个服务可以远程控制iOS设备。你也可以启动且者杀死某些应用，点击且滚动视图或者确认某块视图是否出现在了屏幕中。这使它在应用端到端的测试和通用设备自动化中成为了一款完美的工具。它通过链接'XCTest.framework'和调用Apple's API来直接在设备上执行命令。WebDriverAgent在Facebook的端到端测试中被开发和使用，并被[Appium](http://appium.io)成功采用。
 
 ## Features
  * Works with device & simulator
